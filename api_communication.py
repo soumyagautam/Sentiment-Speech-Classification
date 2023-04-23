@@ -1,12 +1,11 @@
 import json
 import requests
-from api_secrets import API_KEY_ASSEMBLYAI
 import time
 
 upload_endpoint = 'https://api.assemblyai.com/v2/upload'
 transcript_endpoint = "https://api.assemblyai.com/v2/transcript"
 headers = {
-    'authorization': API_KEY_ASSEMBLYAI
+    'authorization': "YOUR ASSEMBLY AI API KEY"
 }
 
 
